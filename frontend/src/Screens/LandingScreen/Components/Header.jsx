@@ -17,7 +17,8 @@ const Header = () => {
 
   return (
     <AppBar position="fixed" sx={{
-      backgroundColor: 'rgba(0.1, 0.24, 0.35, 0.5)',
+      backgroundColor:'rgba(26, 62, 88, 0.9)',
+      
       backdropFilter: 'blur(8px)'
     }}>
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
