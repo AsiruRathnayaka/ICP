@@ -19,7 +19,7 @@ const Header = () => {
     <AppBar position="fixed" sx={{
       backgroundColor:'rgba(26, 62, 88, 0.9)',
       
-      backdropFilter: 'blur(8px)'
+      backdropFilter: 'blur(2px)'
     }}>
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <div>
@@ -31,7 +31,7 @@ const Header = () => {
             endIcon={<ArrowDropDownIcon />}
             onClick={handleMenu}
           >
-            Nav Item 1
+            Comencemos
           </Button>
           <Menu
             anchorEl={anchorEl}
@@ -68,13 +68,13 @@ const Header = () => {
             anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
           >
             <MenuItem>
-              <Typography variant="body1">Dropdown Item 1</Typography>
+              <Typography variant="body1">Projects</Typography>
             </MenuItem>
             <MenuItem>
-              <Typography variant="body1">Dropdown Item 2</Typography>
+              <Typography variant="body1">Congressman</Typography>
             </MenuItem>
           </Menu>
-          <Button color="inherit">Nav Item 2</Button>
+          <Button color="inherit">QUIENES SOMOS</Button>
         </div>
       </Toolbar>
     </AppBar>

@@ -9,7 +9,7 @@ const HeroSection = () => {
     setButton2Clicked(true);
   };
   return (
-    <Grid
+    <Grid 
       container
       direction="column"
       justifyContent="center"
@@ -47,18 +47,19 @@ const HeroSection = () => {
             background: 'rgba(26, 62, 88, 1)',
           }}
         >
-          Button 1
+          Senado
         </Button>
         <Button
-          variant="contained"
+          variant="Outlined"
           color={isButton2Clicked ? "secondary" : "primary"}
           onClick={handleButton2Click}
           sx={{
+            color:"white",
+            border:'2px solid white',
             borderRadius: '4pt',
-            background: isButton2Clicked ? 'rgba(26, 62, 88, 1)' : 'none',
           }}
         >
-          Button 2
+          Camara
         </Button>
       </Grid>
     </Grid>
